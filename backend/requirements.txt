@@ -1,5 +1,5 @@
-# Database
-supabase==2.3.4
+# Database - using stable version
+supabase==2.0.3
 
 # LLM
 openai==1.12.0
