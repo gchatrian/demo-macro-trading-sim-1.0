@@ -311,6 +311,82 @@ VALUES (
     FALSE
 );
 
+-- =============================================================================
+-- 7. EVENTI MINORI (3 al mese con impatti ridotti)
+-- =============================================================================
+
+-- ========== GENNAIO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-01-08 10:00:00+00', 'European Central Bank Holds Rates Steady, Signals Cautious Optimism', 0.02, 0.01, 0.3, FALSE),
+    ('2025-01-14 16:30:00+00', 'US-China Trade Talks Resume: Both Sides Report Constructive Dialogue', 0.03, -0.01, -0.2, FALSE),
+    ('2025-01-23 09:00:00+00', 'Major Semiconductor Plant Opens in Arizona, Creating 3,000 Jobs', 0.01, 0.00, 0.1, FALSE);
+
+-- ========== FEBBRAIO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-02-05 11:00:00+00', 'Oil Prices Dip 3% on Increased OPEC Production Signals', -0.01, -0.02, 0.4, FALSE),
+    ('2025-02-19 14:00:00+00', 'Japan Central Bank Maintains Ultra-Loose Monetary Policy', 0.01, 0.01, 0.2, FALSE),
+    ('2025-02-26 15:30:00+00', 'US Dollar Strengthens Against Major Currencies on Economic Data', 0.02, -0.01, 0.3, FALSE);
+
+-- ========== MARZO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-03-06 08:30:00+00', 'UK Economy Shows Modest Growth, Easing Recession Fears', 0.01, 0.00, -0.1, FALSE),
+    ('2025-03-12 13:00:00+00', 'Global Supply Chain Disruptions Ease as Shipping Costs Normalize', 0.02, -0.02, -0.3, FALSE),
+    ('2025-03-28 17:00:00+00', 'Major Automaker Announces $5B Electric Vehicle Factory in Michigan', 0.02, 0.01, 0.2, FALSE);
+
+-- ========== APRILE 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-04-03 12:00:00+00', 'Canadian Economy Beats Expectations, Loonie Strengthens', 0.01, 0.00, 0.1, FALSE),
+    ('2025-04-16 10:30:00+00', 'BRICS Nations Discuss Trade Cooperation at Economic Summit', 0.01, 0.01, 0.4, FALSE),
+    ('2025-04-25 14:45:00+00', 'US Consumer Confidence Rises to Three-Year High', 0.03, 0.02, 0.2, FALSE);
+
+-- ========== MAGGIO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-05-07 09:15:00+00', 'G7 Finance Ministers Commit to Economic Coordination', 0.01, 0.00, -0.2, FALSE),
+    ('2025-05-19 16:00:00+00', 'Natural Gas Prices Fall 8% on Mild Weather Forecasts', -0.01, -0.03, 0.3, FALSE),
+    ('2025-05-29 11:30:00+00', 'Tech IPO Wave Continues: Three Unicorns File for Public Listings', 0.02, 0.01, 0.5, FALSE);
+
+-- ========== GIUGNO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-06-04 13:30:00+00', 'Swiss National Bank Raises Rates 25bp, Cites Inflation Concerns', 0.00, -0.01, 0.2, FALSE),
+    ('2025-06-15 10:00:00+00', 'Emerging Markets See Capital Inflows as Risk Appetite Returns', 0.02, 0.01, 0.3, FALSE),
+    ('2025-06-24 15:00:00+00', 'US Housing Starts Jump 12%, Construction Sector Robust', 0.03, 0.02, 0.4, FALSE);
+
+-- ========== LUGLIO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-07-09 08:00:00+00', 'Australian Economy Expands at Fastest Pace in Two Years', 0.01, 0.01, 0.1, FALSE),
+    ('2025-07-17 12:30:00+00', 'Gold Prices Retreat as Investors Rotate into Equities', 0.01, 0.00, 0.2, FALSE),
+    ('2025-07-28 14:00:00+00', 'Retail Sales Surge 1.8% Month-Over-Month Exceeding Forecasts', 0.04, 0.03, 0.5, FALSE);
+
+-- ========== AGOSTO 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-08-06 11:00:00+00', 'Eurozone Manufacturing PMI Rebounds Into Expansion Territory', 0.02, 0.01, 0.2, FALSE),
+    ('2025-08-14 09:30:00+00', 'Corporate Earnings Season Beats Expectations Across Sectors', 0.03, 0.01, -0.2, FALSE),
+    ('2025-08-27 16:30:00+00', 'US Treasury Auctions See Strong Demand Despite Rising Yields', 0.01, -0.01, -0.3, FALSE);
+
+-- ========== SETTEMBRE 2025 ==========
+
+INSERT INTO macro_events (event_date, headline, impact_growth, impact_inflation, impact_volatility, has_happened)
+VALUES 
+    ('2025-09-03 10:30:00+00', 'Mexico Economy Shows Resilience, Peso Gains Against Dollar', 0.01, 0.00, 0.1, FALSE),
+    ('2025-09-12 13:45:00+00', 'Global Semiconductor Sales Hit Record High on AI Chip Demand', 0.03, 0.02, 0.4, FALSE),
+    ('2025-09-23 15:15:00+00', 'US Small Business Optimism Index Reaches Five-Year Peak', 0.02, 0.01, 0.3, FALSE);
+
 COMMIT;
 
 -- =============================================================================

@@ -1,0 +1,14 @@
+# Database
+supabase==2.3.4
+
+# LLM
+openai==1.12.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Date/Time utilities
+python-dateutil==2.8.2
+
+# Utility
+colorama==0.4.6
